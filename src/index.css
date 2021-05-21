@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.root{
+  
+}
+
+.App{
+  height: 100vh;
+  background: rgb(103,214,120);
+  background: radial-gradient(circle, rgba(103,214,120,1) 31%, rgba(93,114,195,1) 100%);
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.music-timer{
+  width:200px;
+  height:5px;
+  color:black
+}
+
+.player-controller{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.player-controller h3{
+  font-size: 4vh;
+}
+
+.buttons{
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-control{
+  background:none;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn-control img{
+  width:30px;
+}
+
+input[type="range"]{
+  width: 100%;
+  background: #5d72c3;
+  cursor: pointer;
+  transition:0.2s ease;
+  padding: 15px 0;
+}
